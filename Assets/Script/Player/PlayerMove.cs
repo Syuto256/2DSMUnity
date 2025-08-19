@@ -37,12 +37,14 @@ public class PlayerMove : MonoBehaviour
         }
 
     }
-   
 
-    private bool IsGround()
-    {
-        // 地面との接触判定
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(groundCheck.position, 0.2f, groundLayer);
-        return hitColliders.Length > 0;
-    }
+    
+
+
+    /* private bool IsGround()
+     {
+         // 地面との接触判定
+         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(groundCheck.position, 0.2f, groundLayer);
+         return hitColliders.Length > 0;
+     }*/
 }
