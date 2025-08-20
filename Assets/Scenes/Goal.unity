@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 461993707}
   m_Layer: 5
   m_Name: GoalScore
-  m_TagString: Untagged
+  m_TagString: GameScoreText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 924044925}
   m_Layer: 5
   m_Name: NowScore
-  m_TagString: Untagged
+  m_TagString: HighScoreText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

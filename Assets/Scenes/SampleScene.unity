@@ -11030,7 +11030,7 @@ GameObject:
   - component: {fileID: 753099020}
   m_Layer: 5
   m_Name: Score
-  m_TagString: Untagged
+  m_TagString: GameScoreText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
