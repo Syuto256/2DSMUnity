@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 using TMPro;
 
 public class InGameScoreDisplay : MonoBehaviour
@@ -20,6 +22,7 @@ public class InGameScoreDisplay : MonoBehaviour
 
     private void UpdateScoreUI()
     {
+        
         if (scoreText != null && ScoreManager.Instance != null)
         {
             scoreText.text = "Score: " + ScoreManager.Instance.score.ToString();
