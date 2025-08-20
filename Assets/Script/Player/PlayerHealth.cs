@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -38,7 +40,12 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
+        SceneManager.LoadScene("GameOver");
+
+
+
         Destroy(gameObject);
+        
     }
 
 

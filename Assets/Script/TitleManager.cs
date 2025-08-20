@@ -9,5 +9,10 @@ public class TitleManager : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
+    public void ReturnTitle()
+    {
+        SceneManager.LoadScene("Title");
+    }
+
 
 }
